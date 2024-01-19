@@ -1,6 +1,6 @@
 import React from "react"
-import derasovilLogo from './assets/derasovil_logo.svg'
-import dropdownicon from './assets/dropdown_icon.svg'
+import derasovilLogo from '/assets/derasovil_logo.svg'
+import dropdownicon from '/assets/dropdown_icon.svg'
 
 function NavBar() {
 

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./assets/derasovil_logo.svg";
+import logo from "/assets/derasovil_logo.svg";
 
 
 function Footer(){

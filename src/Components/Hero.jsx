@@ -1,6 +1,6 @@
 import React from "react" 
-import heroimgmobile from './assets/hero_photo_mobile.jpg'
-import heroimg from './assets/hero_photo.jpg'
+import heroimgmobile from '/assets/hero_photo_mobile.jpg'
+import heroimg from '/assets/hero_photo.jpg'
 
 
 

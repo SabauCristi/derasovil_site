@@ -1,10 +1,10 @@
 import React from "react" 
-import dezinsectienimg from './assets/Desinsection_photo.jpeg'
-import deratizareimg from './assets/Deratizareimg.jpeg'
-import dezinfectieimg from './assets/Dezinfectieimg.jpeg'
-import flysvg from './assets/Fly.svg'
-import micesvg from './assets/Mice.svg'
-import solsvg from './assets/Sol.svg'
+import dezinsectienimg from '/assets/Desinsection_photo.jpeg'
+import deratizareimg from '/assets/Deratizareimg.jpeg'
+import dezinfectieimg from '/assets/Dezinfectieimg.jpeg'
+import flysvg from '/assets/Fly.svg'
+import micesvg from '/assets/Mice.svg'
+import solsvg from '/assets/Sol.svg'
 
 
 function About(){

@@ -1,7 +1,7 @@
 import React from "react";
-import phone_icon from './assets/phone-icon.svg'
-import email_icon from './assets/email-icon.svg'
-import location_icon from './assets/location-icon.svg'
+import phone_icon from '/assets/phone-icon.svg'
+import email_icon from '/assets/email-icon.svg'
+import location_icon from '/assets/location-icon.svg'
 
 
 

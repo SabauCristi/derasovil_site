@@ -13,6 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
+          <Route path="/derasovil_site" element={<Home/>} />
           <Route path="/Acasă" element={<Home/>} />
           <Route path="/Despre noi" element={<About/>} />
           <Route path="/Servicii" element={<Services/>} />
