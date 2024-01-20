@@ -14,10 +14,10 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/derasovil_site" element={<Home/>} />
-          <Route path="/Acasă" element={<Home/>} />
-          <Route path="/Despre noi" element={<About/>} />
-          <Route path="/Servicii" element={<Services/>} />
-          <Route path="/Contact" element={<Contact/>} />
+          <Route path="/derasovil_site/Acasa" element={<Home/>} />
+          <Route path="/derasovil_site/Despre-noi" element={<About/>} />
+          <Route path="/derasovil_site/Servicii" element={<Services/>} />
+          <Route path="/derasovil_site/Contact" element={<Contact/>} />
         </Routes>
       </BrowserRouter>
     </div>
