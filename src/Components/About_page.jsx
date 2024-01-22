@@ -17,9 +17,9 @@ function Hero_about() {
                 <div className="flex flex-col items-center justify-center gap-10 md:gap-14 lg:flex-row-reverse md:mt-14 lg:items-start lg:mt-16 xl:mt-24">
                     <div className="flex flex-col justify-center items-center gap-10">
                         <p className="text-3xl text-secondary text-center font-semibold lg:block xl:text-5xl">Povestea Noastră</p>
-                        <p className="text-lg text-secondary text-start tracking-wider w-[90%] leading-relaxed lg:text-xl lg:w-full xl:text-2xl">Derasovil a început să-și desfășoare activitatea în Oradea, lăsându-și amprenta în domeniul deratizării, desinsecției și dezinfecției. Cu trecerea timpului, am evoluat constant, extinzându-ne și dezvoltându-ne. Astăzi, suntem mândri să avem echipe specializate în toată țara, pregătite să ofere soluții sigure și inovatoare. Această expansiune reprezintă o realizare a angajamentului nostru de a oferi un mediu curat și sigur, contribuind la sănătatea și bunăstarea comunităților din întreaga Românie.</p>
+                        <p className="text-lg text-secondary text-start tracking-wider w-[90%] leading-relaxed lg:text-xl lg:w-full xl:text-2xl xl:self-start">Derasovil a început să-și desfășoare activitatea în Oradea, lăsându-și amprenta în domeniul deratizării, desinsecției și dezinfecției. Cu trecerea timpului, am evoluat constant, extinzându-ne și dezvoltându-ne. Astăzi, suntem mândri să avem echipe specializate în toată țara, pregătite să ofere soluții sigure și inovatoare. Această expansiune reprezintă o realizare a angajamentului nostru de a oferi un mediu curat și sigur, contribuind la sănătatea și bunăstarea comunităților din întreaga Românie.</p>
                     </div>
-                    <img src={Story_img} className="rounded-lg w-[80%] lg:w-[40%] lg:aspect-square lg:object-cover lg:object-center xl:aspect-auto"></img>
+                    <img src={Story_img} className="rounded-lg w-[80%] lg:w-[40%] lg:aspect-square lg:object-cover lg:object-center xl:aspect-auto xl:self-end"></img>
                 </div>
             </div>
         </div>

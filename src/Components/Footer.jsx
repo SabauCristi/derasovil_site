@@ -4,7 +4,7 @@ import logo from "/assets/derasovil_logo.svg";
 
 function Footer(){
     return(
-        <div className="flex flex-col items-center justify-center py-3 bg-slate-200">
+        <div className="flex flex-col items-center justify-center py-10 bg-slate-200">
             <div className="w-[90%] flex flex-col gap-2 md:flex-row md:justify-evenly">
                 <div className="flex flex-col items-start md:w-1/2">
                     <img src={logo} className="w-36 xl:w-52"></img>
