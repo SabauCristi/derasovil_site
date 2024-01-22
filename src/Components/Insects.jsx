@@ -37,7 +37,7 @@ function Insects(){
     function createIcon(icon){
         return <div className="flex flex-col justify-center items-center">
             <button onLoad={() => changeColor(1)} onClick={() => handleOnClick(icon.id)} className="flex flex-col justify-center items-center w-[60%] md:w-3/4 lg:w-[70%] xl:w-[50%] group gap-1">
-                <img src={icon.url} className="aspect-square p-2 w-full group-hover:!bg-brick  bg-cyan focus rounded-full border-secondary border-[3px] lg:border-4" id={"icon" + icon.id}></img> 
+                <img src={icon.url} className="aspect-square p-2 w-full group-hover:!bg-brick  bg-cyan focus rounded-full border-secondary border-[2.5px] lg:border-[3.5px]" id={"icon" + icon.id}></img> 
                 <p className="text-center text-secondary text-lg lg:text-xl xl:text-2xl">{icon.name}</p>
                 <span className="border-2 border-cyan  group-hover:!border-brick rounded-sm w-3/5" id={"line" + icon.id}></span>
             </button>
