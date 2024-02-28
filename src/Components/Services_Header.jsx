@@ -12,7 +12,7 @@ function Services_Header(){
             }}
         >
             <div className="flex flex-row items-center justify-center py-10 md:py-16 lg:py-16">
-                <p className="text-primary text-2xl text-center w-4/5 font-normal leading-normal tracking-wide md:text-4xl md:tracking-wide md:leading-relaxed lg:text-5xl lg:leading-relaxed xl:text-6xl xl:leading-relaxed">Transformăm spațiile într-un mediu sigur și curat!</p>
+                <p className="text-primary text-2xl text-center w-4/5 font-normal leading-normal tracking-wide md:text-3xl md:tracking-wide md:leading-relaxed lg:text-4xl lg:leading-relaxed xl:text-5xl xl:leading-relaxed">Transformăm spațiile într-un mediu sigur și curat! Derasovil - Specialiști în deratizare, dezinsecție și dezinfectie </p>
             </div>
         </div>
     )

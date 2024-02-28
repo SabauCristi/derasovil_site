@@ -19,7 +19,7 @@ function About(){
             </div>
             <div className="flex flex-col justify-center items-center lg: gap-4">
                 <div className="flex flex-col w-5/6 justify-center items-center lg:flex-row lg:gap-2">
-                    <img src={dezinsectienimg} className="w-4/5 mt-3 mb-2 rounded-xl overflow-hidden border-b-4 border-cyan lg:w-1/2"></img>
+                    <img src={dezinsectienimg} className="w-4/5 mt-3 mb-2 rounded-xl overflow-hidden lg:w-1/2"></img>
                     <div className="lg:w-1/2 flex flex-col items-center lg:items-start lg:pl-8 lg:gap-6">
                         <div className="flex flex-row items-center lg:my-2">
                             <img src={flysvg} className="w-1/6 mr-2"></img>
@@ -32,7 +32,7 @@ function About(){
 
                 <div className="flex flex-col w-5/6 justify-center items-center lg:flex-row lg:gap-2">
                     <div className="lg:w-1/2 flex flex-col items-center lg:items-start lg:pr-8 lg:gap-6">
-                    <img src={deratizareimg} className="w-4/5 mt-3 mb-2 rounded-xl overflow-hidden border-b-4 border-cyan lg:w-1/2 lg:hidden"></img>
+                    <img src={deratizareimg} className="w-4/5 mt-3 mb-2 rounded-xl overflow-hidden lg:w-1/2 lg:hidden"></img>
                         <div className="flex flex-row items-center lg:my-2">
                             <img src={micesvg} className="w-1/6 mr-2"></img>
                             <p className="text-center text-secondary text-2xl font-semibold my-2 md:text-3xl xl:text-5xl">Deratizare</p>
@@ -40,11 +40,11 @@ function About(){
                         <p className="text-center text-secondary text-md font-[350] lg:text-start lg:text-lg xl:text-2xl"><b className="font-medium">Rozătoarele</b> sunt purtătorii majori de boli și germeni patogeni. Pentru a le combate eficient, este necesară o abordare constantă, iar în acest proces, Compania Derasovil se remarcă ca partener de încredere pe termen îndelungat.</p>
                         <a href="#" className="text-center text-primary bg-cyan text-xl m-3 rounded-full w-2/4 pb-1 self-center xl:text-3xl xl:w-3/5 hover:shadow-emerald-700 hover:shadow-md">Află mai multe</a>
                     </div>
-                        <img src={deratizareimg} className="w-4/5 mt-3 mb-2 rounded-xl overflow-hidden border-b-4 border-cyan lg:w-1/2 hidden lg:block"></img>
+                        <img src={deratizareimg} className="w-4/5 mt-3 mb-2 rounded-xl overflow-hidden lg:w-1/2 hidden lg:block"></img>
                 </div>
 
                 <div className="flex flex-col w-5/6 justify-center items-center lg:flex-row lg:gap-2">
-                    <img src={dezinfectieimg} className="w-4/5 mt-3 mb-2 rounded-xl overflow-hidden border-b-4 border-cyan lg:w-1/2"></img>
+                    <img src={dezinfectieimg} className="w-4/5 mt-3 mb-2 rounded-xl overflow-hidden lg:w-1/2"></img>
                     <div className="lg:w-1/2 flex flex-col items-center lg:items-start lg:pl-8 lg:gap-6">
                         <div className="flex flex-row items-center lg:my-2">
                             <img src={solsvg} className="w-1/6 mr-2 px-0.5"></img>

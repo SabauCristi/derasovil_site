@@ -6,7 +6,7 @@ import Achivements from "../Components/Achivements";
 
 function About(){
     return (
-    <div>
+    <div className="bg-primary max-w-full overflow-x-hidden">
         <NavBar />
         <Hero />
         <AboutComponent />

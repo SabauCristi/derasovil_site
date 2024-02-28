@@ -4,6 +4,8 @@ import Home from "./Pages/Home"
 import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import Services from "./Pages/Services";
+import Deratizare from "./Pages/Deratizare";
+import { Link } from "react-router-dom";
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
           <Route path="/derasovil_site/Despre-noi" element={<About/>} />
           <Route path="/derasovil_site/Servicii" element={<Services/>} />
           <Route path="/derasovil_site/Contact" element={<Contact/>} />
+          <Route path="/derasovil_site/Deratizare" element={<Deratizare/>} />
         </Routes>
       </BrowserRouter>
     </div>

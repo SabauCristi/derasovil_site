@@ -8,7 +8,7 @@ import location_icon from '/assets/location-icon.svg'
 function Contact(){
 
     return(
-            <div className="bg-gradient-to-tl from-secondary to-cyan flex flex-col items-center">
+            <div className="bg-gradient-to-b from-cyan to-secondary flex flex-col items-center shadow-lg z-10">
                 <p className="text-center text-3xl text-primary w-[85%] mt-8 font-normal md:mb-5 lg:text-4xl xl:text-4xl">Contactați-ne cu încredere pentru orice întrebare sau nelămurire!</p>
                 <div className="flex flex-col justify-center items-center lg:flex-row lg:items-start lg:mt-10 lg: gap-4 md:w-4/5 lg:gap-12">
                     <div className="grid grid-rows-3 mt-6 gap-3 w-4/5 md:w-full md:gap-6 lg:mt-0 lg:gap-10">

@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact(){
     return (
-    <div>
+    <div className="bg-primary max-w-full overflow-x-hidden">
 
     </div>
     )
