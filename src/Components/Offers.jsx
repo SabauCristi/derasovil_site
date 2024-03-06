@@ -88,7 +88,7 @@ function Serrvice_Section(){
               padding: "10px 10px", 
             }}
           >
-            <Services__Offers_Card name={offer.name} url={offer.url} text={offer.text} />
+            <Services__Offers_Card name={offer.name} url={offer.url} text={offer.text} path={offer.path} />
           </div>
         </div>
       ))}
@@ -98,10 +98,10 @@ function Serrvice_Section(){
                 <Link to ="/derasovil_site/Deratizare" className="text-primary text-lg bg-brick rounded-full w-3/5 text-center self-center justify-self-end mb-8 hover:shadow-secondary hover:shadow-md">Află mai multe</Link>
               </div>
               <div className='w-full flex flex-row justify-center'>
-                <p className="text-primary text-lg bg-brick rounded-full w-3/5 text-center self-center justify-self-end mb-8">Află mai multe</p>
+                <Link to ="/derasovil_site/Dezinfectie" className="text-primary text-lg bg-brick rounded-full w-3/5 text-center self-center justify-self-end mb-8 hover:shadow-secondary hover:shadow-md">Află mai multe</Link>
               </div>
               <div className='w-full flex flex-row justify-center'>
-                <p className="text-primary text-lg bg-brick rounded-full w-3/5 text-center self-center justify-self-end mb-8">Află mai multe</p>
+                <Link to ="/derasovil_site/Dezinsectie" className="text-primary text-lg bg-brick rounded-full w-3/5 text-center self-center justify-self-end mb-8 hover:shadow-secondary hover:shadow-md">Află mai multe</Link>
               </div>
             </div>
         </div>

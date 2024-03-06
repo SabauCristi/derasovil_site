@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavBar from "../Components/NavBar";
 import Hero from "../Components/Hero";
 import About from "../Components/About";
@@ -10,6 +10,9 @@ import Footer from "../Components/Footer";
 
 
 function Home(){
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return(
         <div className="bg-primary max-w-full overflow-x-hidden">
             <NavBar />

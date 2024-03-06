@@ -8,7 +8,7 @@ import location_icon from '/assets/location-icon.svg'
 function Contact(){
 
     return(
-            <div className="bg-gradient-to-b from-cyan to-secondary flex flex-col items-center shadow-lg z-10">
+            <div className="bg-gradient-to-t from-cyan to-secondary flex flex-col items-center shadow-lg z-10">
                 <p className="text-center text-3xl text-primary w-[85%] mt-8 font-normal md:mb-5 lg:text-4xl xl:text-4xl">Contactați-ne cu încredere pentru orice întrebare sau nelămurire!</p>
                 <div className="flex flex-col justify-center items-center lg:flex-row lg:items-start lg:mt-10 lg: gap-4 md:w-4/5 lg:gap-12">
                     <div className="grid grid-rows-3 mt-6 gap-3 w-4/5 md:w-full md:gap-6 lg:mt-0 lg:gap-10">
@@ -36,7 +36,7 @@ function Contact(){
                             <label className="text-lg text-primary mt-4 mb-1">Mesaj</label>
                             <textarea className="border-[1px] resize-y rounded-xl bg-inherit w-full border-white focus:outline-none focus:border-[3px] focus:border-primary text-2xl text-primary mb-10 px-3" placeholder="Spune-ne problema ta!"></textarea>
                         </form>
-                        <button className="text-2xl text-primary w-1/2 rounded-full bg-brick pb-1 shadow-inner mb-8 hover:shadow-amber-800 hover:shadow-md self-center">Trimite</button>
+                        <button className="text-2xl text-primary w-1/2 rounded-full bg-brick pb-1 shadow-inner mb-8 hover:shadow-secondary hover:shadow-md self-center">Trimite</button>
 
                     </div>
                  </div>

@@ -27,7 +27,7 @@ function NavBar() {
         <Link to ="/derasovil_site/Acasa"  className="text-secondary text-xl px-3 pb-1 rounded-full xl:text-3xl md:text-2xl hover:bg-brick hover:text-primary hover:shadow-md"> Acasă</Link>
         <Link to="/derasovil_site/Despre-noi" className="text-secondary text-xl px-3 pb-1 rounded-full xl:text-3xl md:text-2xl hover:bg-brick hover:text-primary hover:shadow-md"> Despre Noi</Link>
         <Link to ="/derasovil_site/Servicii" className="text-secondary text-xl px-3 pb-1 rounded-full xl:text-3xl md:text-2xl hover:bg-brick hover:text-primary hover:shadow-md"> Servicii</Link>
-        <Link to ="/derasovil_site/Contact" className="text-primary bg-brick rounded-full text-xl px-3 pb-1 text-center xl:text-3xl md:text-2xl hover:shadow-md hover:shadow-amber-800"> Contact</Link>
+        <Link to ="/derasovil_site/Contact" className="text-primary bg-brick rounded-full text-xl px-3 pb-1 text-center xl:text-3xl md:text-2xl hover:shadow-md hover:shadow-secondary"> Contact</Link>
       </div>
     </div>
   

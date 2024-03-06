@@ -31,7 +31,7 @@ function Footer(){
                     <p className="text-secondary text-md">Email: office@derasovil.ro</p>
                 </div>
             </div>
-            <p className="text-secondary text-sm font-medium xl:pt-4 xl:pb-2 pt-8">Copyright © 2024 Derasovil SRL. Toate drepturile rezervate.</p>
+            <p className="text-secondary text-sm font-medium xl:pt-4 xl:pb-2 pt-8 self-center justify-self-center text-center">Copyright © 2024 Derasovil SRL. Toate drepturile rezervate.</p>
         </div>
     )
 }

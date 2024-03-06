@@ -5,6 +5,7 @@ import dezinfectieimg from '/assets/Dezinfectieimg.jpeg'
 import flysvg from '/assets/Fly.svg'
 import micesvg from '/assets/Mice.svg'
 import solsvg from '/assets/Sol.svg'
+import { Link } from "react-router-dom";
 
 
 function About(){
@@ -26,7 +27,7 @@ function About(){
                             <p className="text-center text-secondary text-2xl font-semibold my-2 md:text-3xl xl:text-5xl">Dezinsecție</p>
                         </div>
                         <p className="text-center text-secondary text-md font-[350] lg:text-start lg:text-lg xl:text-2xl"><b className="font-medium">Derasovil</b> te protejează de invazia insectelor dăunătoare. Garantăm un mediu curat și liber de pericole, folosind metode avansate ce combat eficient orice amenințare.Alege să trăiești fără griji alături de noi pentru o casă în care să te simți cu adevărat protejat.</p>
-                        <a href="#" className="text-center text-primary bg-cyan text-xl m-3 rounded-full w-2/4 pb-1 self-center xl:text-3xl xl:w-3/5 hover:shadow-emerald-700 hover:shadow-md">Află mai multe</a>
+                        <Link to ="/derasovil_site/Dezinsectie" className="text-center text-primary bg-cyan text-xl m-3 rounded-full w-2/4 pb-1 self-center xl:text-3xl xl:w-3/5 hover:shadow-secondary hover:shadow-md">Află mai multe</Link>
                     </div>
                 </div>
 
@@ -38,7 +39,7 @@ function About(){
                             <p className="text-center text-secondary text-2xl font-semibold my-2 md:text-3xl xl:text-5xl">Deratizare</p>
                         </div>
                         <p className="text-center text-secondary text-md font-[350] lg:text-start lg:text-lg xl:text-2xl"><b className="font-medium">Rozătoarele</b> sunt purtătorii majori de boli și germeni patogeni. Pentru a le combate eficient, este necesară o abordare constantă, iar în acest proces, Compania Derasovil se remarcă ca partener de încredere pe termen îndelungat.</p>
-                        <a href="#" className="text-center text-primary bg-cyan text-xl m-3 rounded-full w-2/4 pb-1 self-center xl:text-3xl xl:w-3/5 hover:shadow-emerald-700 hover:shadow-md">Află mai multe</a>
+                        <Link to ="/derasovil_site/Deratizare" className="text-center text-primary bg-cyan text-xl m-3 rounded-full w-2/4 pb-1 self-center xl:text-3xl xl:w-3/5 hover:shadow-secondary hover:shadow-md">Află mai multe</Link>
                     </div>
                         <img src={deratizareimg} className="w-4/5 mt-3 mb-2 rounded-xl overflow-hidden lg:w-1/2 hidden lg:block"></img>
                 </div>
@@ -51,7 +52,7 @@ function About(){
                             <p className="text-center text-secondary text-2xl font-semibold my-2 md:text-3xl xl:text-5xl">Dezinfecție</p>
                         </div>
                         <p className="text-center text-secondary text-md font-[350] lg:text-start lg:text-lg xl:text-2xl"><b className="font-medium">Igiena </b>este esențială pentru un mediu sănătos! Serviciile noastre de dezinfecție elimină eficient bacteriile și microbii, asigurându-ți un spațiu curat și sigur pentru tine și familia ta. Apelează la noi pentru a transforma casa ta într-un sanctuar protejat, unde să te bucuri de confort și liniște deplină.</p>
-                        <a href="#" className="text-center text-primary bg-cyan text-xl m-3 rounded-full w-2/4 pb-1 self-center xl:text-3xl xl:w-3/5 hover:shadow-emerald-700 hover:shadow-md">Află mai multe</a>
+                        <Link to ="/derasovil_site/Dezinfectie" className="text-center text-primary bg-cyan text-xl m-3 rounded-full w-2/4 pb-1 self-center xl:text-3xl xl:w-3/5 hover:shadow-secondary hover:shadow-md">Află mai multe</Link>
                     </div>
                 </div>
             </div>
