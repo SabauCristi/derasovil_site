@@ -28,11 +28,11 @@ function Contact(){
                     <div className="w-4/5 mt-8 flex flex-col items-start justify-start md:w-full lg:mt-0">
                         <form className="flex flex-col justify-center items-start w-full">
                             <label className="text-lg text-primary mt-4">Nume</label>
-                            <input placeholder="Exemplu: Nume" className="bg-inherit border-b-[0.5px] text-2xl w-full text-primary focus:outline-none focus:border-b-[3px] focus:border-primary pb-1"></input>
+                            <input placeholder="Exemplu: Nume" className="bg-inherit border-b-[0.5px] text-2xl w-full text-primary focus:outline-none focus:border-b-[3px] focus:border-primary pb-1 rounded-none"></input>
                             <label className="text-lg text-primary mt-4">Telefon</label>
-                            <input placeholder="Exemplu: 0773957912" className="bg-inherit border-b-[0.5px] text-2xl w-full text-primary focus:outline-none focus:border-b-[3px] focus:border-primary pb-1" id="phone"></input>
+                            <input placeholder="Exemplu: 0773957912" className="bg-inherit border-b-[0.5px] text-2xl w-full text-primary focus:outline-none focus:border-b-[3px] focus:border-primary pb-1 rounded-none" id="phone"></input>
                             <label className="text-lg text-primary mt-4">Email</label>
-                            <input placeholder="Exemplu: office@derasovil.ro" className="bg-inherit focus:bg-inherit border-b-[0.5px] text-2xl w-full text-primary focus:outline-none focus:border-b-[3px] focus:border-primary pb-1"></input>
+                            <input placeholder="Exemplu: office@derasovil.ro" className="bg-inherit focus:bg-inherit border-b-[0.5px] text-2xl w-full text-primary focus:outline-none focus:border-b-[3px] focus:border-primary pb-1 rounded-none"></input>
                             <label className="text-lg text-primary mt-4 mb-1">Mesaj</label>
                             <textarea className="border-[1px] resize-y rounded-xl bg-inherit w-full border-white focus:outline-none focus:border-[3px] focus:border-primary text-2xl text-primary mb-10 px-3" placeholder="Spune-ne problema ta!"></textarea>
                         </form>

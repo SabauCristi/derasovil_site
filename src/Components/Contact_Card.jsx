@@ -29,19 +29,19 @@ function Contact_Card(){
                 <div className="bg-primary flex flex-col items-center justify-center w-full pt-4 pb-4 gap-3">
                         <div className="flex flex-col items-start justify-start w-4/5">
                             <label className="text-secondary font-medium text-lg">Nume</label>
-                            <input placeholder="Exemplu: Sabau" className="bg-inherit border-b-[0.5px] border-cyan text-xl w-full text-secondary focus:outline-none focus:border-b-[2px] focus:border-cyan pb-1"></input>
+                            <input placeholder="Exemplu: Sabau" className="bg-inherit border-b-[0.5px] border-cyan text-xl w-full text-secondary focus:outline-none focus:border-b-[2px] focus:border-cyan pb-1 rounded-none"></input>
                         </div>
                         <div className="flex flex-col items-start justify-start w-4/5">
                             <label className="text-secondary font-medium text-lg">Prenume</label>
-                            <input placeholder="Exemplu: Cristian" className="bg-inherit border-b-[0.5px] border-cyan text-xl w-full text-secondary focus:outline-none focus:border-b-[2px] focus:border-cyan pb-1"></input>
+                            <input placeholder="Exemplu: Cristian" className="bg-inherit border-b-[0.5px] border-cyan text-xl w-full text-secondary focus:outline-none focus:border-b-[2px] focus:border-cyan pb-1 rounded-none"></input>
                         </div>
                         <div className="flex flex-col items-start justify-start w-4/5">
                             <label className="text-secondary font-medium text-lg">Telefon</label>
-                            <input placeholder="Exemplu: 0773957912" className="bg-inherit border-b-[0.5px] border-cyan text-xl w-full text-secondary focus:outline-none focus:border-b-[2px] focus:border-cyan pb-1"></input>
+                            <input placeholder="Exemplu: 0773957912" className="bg-inherit border-b-[0.5px] border-cyan text-xl w-full text-secondary focus:outline-none focus:border-b-[2px] focus:border-cyan pb-1 rounded-none"></input>
                         </div>
                         <div className="flex flex-col items-start justify-start w-4/5">
                             <label className="text-secondary font-medium text-lg">Mail</label>
-                            <input placeholder="Exemplu: contact@derasovil.ro" className="bg-inherit border-b-[0.5px] border-cyan text-xl w-full text-secondary focus:outline-none focus:border-b-[2px] focus:border-cyan pb-1"></input>
+                            <input placeholder="Exemplu: contact@derasovil.ro" className="bg-inherit border-b-[0.5px] border-cyan text-xl w-full text-secondary focus:outline-none focus:border-b-[2px] focus:border-cyan pb-1 rounded-none"></input>
                         </div>
                         <div className="flex flex-col items-start justify-start w-4/5">
                             <label className="text-lg text-secondary mb-1 font-medium">Mesaj</label>
