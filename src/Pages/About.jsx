@@ -7,7 +7,7 @@ import Achivements from "../Components/Achivements";
 function About(){
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);s
+      }, []);
     return (
     <div className="bg-primary max-w-full overflow-x-hidden">
         <NavBar />
