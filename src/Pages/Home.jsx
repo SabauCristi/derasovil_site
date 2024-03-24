@@ -4,8 +4,8 @@ import Hero from "../Components/Hero";
 import About from "../Components/About";
 import Serrvice_Section from "../Components/Service_Section";
 import Insects from "../Components/Insects";
-import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
+import Contact_Card from "../Components/Contact_Card";
 
 
 
@@ -20,7 +20,7 @@ function Home(){
             <About />
             <Serrvice_Section />
             <Insects />
-            <Contact />
+            <Contact_Card />
             <Footer />
             </div>
          )

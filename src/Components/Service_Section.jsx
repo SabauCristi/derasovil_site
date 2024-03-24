@@ -4,6 +4,7 @@ import services from "./services";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from 'react-router-dom';
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -74,8 +75,8 @@ function Serrvice_Section(){
     };
 
     return (
-        <div className='bg-cyan flex flex-col items-center justify-center'>
-        <p className='text-4xl text-primary text-center mt-4 lg:text-5xl xl:text-6xl lg:py-3'>Pentru cine sunt serviciile noastre?</p>
+        <div className='bg-gradient-to-bl from-cyan to-secondary flex flex-col items-center justify-center'>
+            <p className='text-4xl text-primary text-center mt-4 lg:text-5xl xl:text-6xl lg:py-3'>Pentru cine sunt serviciile noastre?</p>
             <Slider {...settings} className='w-4/5 mb-10 xl:w-[90%]'>
                 {services.map((service, index) => (
                     <div key={index}>
@@ -83,6 +84,7 @@ function Serrvice_Section(){
                     </div>
                 ))}
             </Slider>
+            <Link to = '/derasovil_site/Servicii' className='text-primary text-xl mb-6 bg-brick rounded-full w-1/2 pb-2 pt-1 md:w-2/5 md:text-xl text-center lg:w-1/3 lg:text-2xl xl:w-1/4 hover:shadow-md hover:shadow-black'>Află mai multe</Link>          
         </div>
     );
 
