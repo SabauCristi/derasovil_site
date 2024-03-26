@@ -3,6 +3,7 @@ import NavBar from "../Components/NavBar";
 import Services_Header from "../Components/Services_Header";
 import Offers from "../Components/Offers";
 import Footer from "../Components/Footer";
+import Contact_Card from "../Components/Contact_Card";
 
 function Services(){
     useEffect(() => {
@@ -13,6 +14,7 @@ function Services(){
             <NavBar />
             <Services_Header />
             <Offers />
+            <Contact_Card />
             <Footer />
         </div>
     )
